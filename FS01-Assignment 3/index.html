@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Shopping Cart</h1>
+            <nav>
+                <input type="text" id="search" placeholder="Search...">
+                <button id="search-btn">Search</button>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="products">
+            <!-- Product cards will be dynamically added here -->
+            <div class="product" data-name="Watch" data-price="100.00">
+                <img src="watch.webp" alt="Watch">
+                <h3>Watch</h3>
+                <p>$100.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Perfume" data-price="50.00">
+                <img src="perfume.png" alt="Perfume">
+                <h3>Perfume</h3>
+                <p>$50.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Shoes" data-price="80.00">
+                <img src="shoes.webp" alt="Shoes">
+                <h3>Shoes</h3>
+                <p>$80.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Accessories" data-price="30.00">
+                <img src="accessories.jpg" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>$30.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Men's Clothes" data-price="120.00">
+                <img src="men.jpg" alt="Men's Clothes">
+                <h3>Men's Clothes</h3>
+                <p>$120.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Women's Clothes" data-price="90.00">
+                <img src="women.jpg" alt="Women's Clothes">
+                <h3>Women's Clothes</h3>
+                <p>$90.00</p>
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="text" class="quantity-input" value="0" readonly>
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
